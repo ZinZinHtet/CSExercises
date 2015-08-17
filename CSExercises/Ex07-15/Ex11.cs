@@ -10,7 +10,12 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.WriteLine(" Enter the distance in Kilometer.");
+            double dist = System.Convert.ToDouble(Console.ReadLine());
+            double total = 2.4 + 0.4 * dist;
+            System.Console.WriteLine("Total fares is " + total);
+
+
         }
     }
 }
